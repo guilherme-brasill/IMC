@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #222;
+}
+
+.pai {
+    height: 120vh;
+    background-image: url(https://thumbs.dreamstime.com/z/aptid%C3%A3o-e-plano-de-conceito-de-dieta-no-fundo-de-madeira-azul-89915721.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; /* ou 100% */
+
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+}
+
+.pai h1 {
+    color: #590f0c;
+    font-size: 50px;
+    text-align: center;
+    line-height: 5rem;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    margin-bottom: 1rem;
+
+    border: 5px solid black;
+    border-radius: 100px 0px;
+    padding: 30px 30px;
+
+    background-color: #fffdc0;
+}
+
+.filho {
+    background-color: #ca221f;
+    display: flex;
+    border-radius: 10px;
+    padding-top: 2rem;
+
+    width: 51rem;
+    height: 20rem;
+}
+
+.filho label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    font-size: 30px; 
+    width: 15rem;
+    height: 10rem;
+}
+
+.filho input {
+    text-align: center;
+    font-size: 40px;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 100px;
+
+    background-color: #fead26;
+}
+
+.filho2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.filho2 button {
+    font-size: 30px; 
+    padding: 1rem 20.2rem;
+    letter-spacing: 5px;
+    background-color: #fffdc0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.filho2 button:active{
+    transform: scale(1.6);
+    transition: 0.1s;
+    
+}
+
+.filho2 p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    word-spacing: 5px;
+    font-size: 40px;
+    font-weight: bold;
+
+    position: relative;
+    top: -10rem;
+    left: 1rem;
+}
